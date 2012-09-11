@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-09-11T10:03:34.692">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/compute/FGCPRestClientModule.java">
+<violation beginline="355" endline="355" begincolumn="43" endcolumn="72" rule="AvoidThreadGroup" ruleset="Basic Rules" package="org.jclouds.fujitsu.fgcp.compute" class="FGCPRestClientModule" method="provideKeyStore" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidThreadGroup" priority="3">
+Avoid using java.lang.ThreadGroup; it is not thread safe
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/compute/predicates/SystemStatusNormal.java">
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.compute.predicates" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.VServerStatus'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/compute/strategy/FGCPComputeServiceAdapter.java">
+<violation beginline="47" endline="47" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerConfiguration'
+</violation>
+<violation beginline="50" endline="50" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.VServer'
+</violation>
+<violation beginline="62" endline="62" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables'
+</violation>
+<violation beginline="184" endline="184" begincolumn="16" endcolumn="19" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.jclouds.fujitsu.fgcp.compute.strategy" class="FGCPComputeServiceAdapter" method="getNode" variable="fwId" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'fwId'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/filters/RequestAuthenticator.java">
+<violation beginline="45" endline="45" begincolumn="1" endcolumn="40" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.crypto.CryptoStreams'
+</violation>
+<violation beginline="87" endline="107" begincolumn="12" endcolumn="5" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.fujitsu.fgcp.filters" class="RequestAuthenticator" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'signatureWire'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/services/AdditionalDiskApi.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/services/AdditionalDiskAsyncApi.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/services/FirewallAsyncApi.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="23" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.GET'
+</violation>
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="30" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.QueryParam'
+</violation>
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.binders.BindAlsoToSystemId'
+</violation>
+<violation beginline="34" endline="34" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServer'
+</violation>
+<violation beginline="35" endline="35" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerBackup'
+</violation>
+<violation beginline="36" endline="36" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerConfiguration'
+</violation>
+<violation beginline="37" endline="37" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerStatus'
+</violation>
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.BinderParam'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/services/LoadBalancerAsyncApi.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="23" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.GET'
+</violation>
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="30" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.ws.rs.QueryParam'
+</violation>
+<violation beginline="31" endline="31" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.binders.BindAlsoToSystemId'
+</violation>
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="81" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.compute.functions.SingleElementResponseToElement'
+</violation>
+<violation beginline="33" endline="33" begincolumn="1" endcolumn="53" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServer'
+</violation>
+<violation beginline="34" endline="34" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerBackup'
+</violation>
+<violation beginline="35" endline="35" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerConfiguration'
+</violation>
+<violation beginline="36" endline="36" begincolumn="1" endcolumn="59" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.fujitsu.fgcp.domain.BuiltinServerStatus'
+</violation>
+<violation beginline="39" endline="39" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.BinderParam'
+</violation>
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="55" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.JAXBResponseParser'
+</violation>
+<violation beginline="44" endline="44" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.Transform'
+</violation>
+<violation beginline="46" endline="46" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.util.concurrent.ListenableFuture'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/services/PublicIPAddressAsyncApi.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.services" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/xml/internal/StatusResponse.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.fujitsu.fgcp.xml.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.xml.bind.annotation.XmlRootElement'
+</violation>
+</file>
+</pmd>
