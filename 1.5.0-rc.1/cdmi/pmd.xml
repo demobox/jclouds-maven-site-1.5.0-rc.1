@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-09-11T05:46:36.080">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/cdmi/src/main/java/org/jclouds/snia/cdmi/v1/domain/CDMIObject.java">
+<violation beginline="221" endline="221" begincolumn="65" endcolumn="86" rule="UselessOperationOnImmutable" ruleset="Basic Rules" package="org.jclouds.snia.cdmi.v1.domain" class="CDMIObject" method="parseMetadata" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOperationOnImmutable" priority="3">
+An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/cdmi/src/main/java/org/jclouds/snia/cdmi/v1/queryparams/CDMIObjectQueryParams.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.HashMap'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="55" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.http.options.BaseHttpRequestOptions'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Multimap'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.0-rc.1/labs/cdmi/src/main/java/org/jclouds/snia/cdmi/v1/queryparams/DataObjectQueryParams.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.HashMap'
+</violation>
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="55" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.http.options.BaseHttpRequestOptions'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.snia.cdmi.v1.queryparams" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Multimap'
+</violation>
+</file>
+</pmd>
